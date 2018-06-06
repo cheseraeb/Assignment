@@ -1,3 +1,8 @@
+/* ********************************************************************
+*   Author : Cheserae Bidgood(Beukes)
+*   Date : 06/06/2018   
+*
+**********************************************************************/
 body {
     font-family: Arial, Helvetica, sans-serif;
     font: bold;
@@ -9,14 +14,32 @@ body {
     background-color: rgb(255, 255, 255);
     border: 2px solid black;
 }
+/* Navigation */
 #navigation_panel{
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(201, 201, 201);
     padding: 10px;
     border: 2px solid black;
-    height: max-content;
-    width: 100px;
+    height: 100%;
+    width: fit-content;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top:20px; 
+}
+#navigation_panel label{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#navigation_panel img{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
 }
 #coversheet{
     width: fit-content;
-    height: 200px ;
+    height: 300px ;
 }
