@@ -8,17 +8,15 @@ body {
     font: bold;
     margin: 0;
     background-color: rgba(255, 255, 255, 0.719);
-    /* width: auto; */
-    /* margin-left: 103px; */
     border: 1px solid black;
 }
 #main{
-    background-color: rgb(247, 29, 29);
+    /* background-color: rgb(247, 29, 29);
     padding: 10px;
     height: 100%;
     margin-right: 15%; 
     border: 5px solid black;
-    margin-left: 8%;
+    margin-left: 8%; */
     /* border: 2px solid black; */
     /* border: 2px solid black; */
     /* height: 50%; */
@@ -31,20 +29,31 @@ body {
     padding-top:20px; 
     margin-left: 104px;
     margin-top: 430px; */
+    
+    /* margin: 0 auto; */
+    background-color: rgba(207, 207, 207, 0.637);
+    border: 2px solid black;
+    height: 100%;
+    overflow: auto;
+    margin-left: 6.5%;
+    /* margin: 0% 10% 0% 9%; */
+
 }
 /* Navigation */
 #navigation_panel{
-    background-color: rgb(201, 201, 201);
-    padding: 10px;
+    background-color: rgba(0, 255, 234, 0.747);
     border: 2px solid black;
     height: 100%;
-    /* width: 15; */
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
     overflow-x: hidden;
     padding-top:20px; 
+    margin-right: 95%;
+    /* overflow: auto; */
+    float: left;
+    clear: both;
 }
 #navigation_panel label{
     margin: 0 auto;
@@ -65,7 +74,8 @@ body {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     border: 2px solid black;
-    margin-left: 5%;
+    /* margin-left: 6.5%; */
+    float: none;
 }
 /* Profile Picture */
 #profile_picture{
@@ -81,36 +91,15 @@ body {
 #user_navigation{
     display: block;
     height: fit-content;
-    background-color: rgba(0, 0, 0, 0.226);
+    top: 0;
+    background-color: rgb(102, 102, 102);
     border: 2px solid black;
-    margin-left: 5%
     /* text-align: right; */
+    /* margin-left: 6.5% */
 }
 #user_navigation span{
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
-}
-#contact_list{
-    background-color: rgba(175, 170, 170, 0.795);
-    /* padding: 10px; */
-    border: 2px solid black;
-    /* height: 50%; */
-    margin-left: 85%;
-    border-right-width: 100%;
-    height: 100%;
-    /* max-width: 40%; */
-    position: fixed;
-    z-index: 1;
-    right: 0;
-    top: 0;
-    /* overflow-x: hidden;  */
-    float: right;
     overflow: auto;
-    /* float: initial; */
-    /* padding-top:20px;  */
-    /* margin-left: 1005px;
-    margin-top: 430px; */
 }
-
-
