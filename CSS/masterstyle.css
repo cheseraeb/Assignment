@@ -8,24 +8,29 @@ body {
     font: bold;
     margin: 0;
     background-color: rgba(255, 255, 255, 0.719);
-    width: auto;
-    margin-left: 103px;
+    /* width: auto; */
+    /* margin-left: 103px; */
     border: 1px solid black;
 }
 #main{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 29, 29);
     padding: 10px;
-    border: 2px solid black;
-    height: 50%;
-    width: 879px;
-    position: fixed;
+    height: 100%;
+    margin-right: 15%; 
+    border: 5px solid black;
+    margin-left: 8%;
+    /* border: 2px solid black; */
+    /* border: 2px solid black; */
+    /* height: 50%; */
+    /* width: 879px; */
+    /* position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     overflow-x: hidden;
     padding-top:20px; 
     margin-left: 104px;
-    margin-top: 430px;
+    margin-top: 430px; */
 }
 /* Navigation */
 #navigation_panel{
@@ -33,7 +38,7 @@ body {
     padding: 10px;
     border: 2px solid black;
     height: 100%;
-    width: fit-content;
+    /* width: 15; */
     position: fixed;
     z-index: 1;
     top: 0;
@@ -60,6 +65,7 @@ body {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     border: 2px solid black;
+    margin-left: 5%;
 }
 /* Profile Picture */
 #profile_picture{
@@ -77,6 +83,7 @@ body {
     height: fit-content;
     background-color: rgba(0, 0, 0, 0.226);
     border: 2px solid black;
+    margin-left: 5%
     /* text-align: right; */
 }
 #user_navigation span{
@@ -86,18 +93,24 @@ body {
 }
 #contact_list{
     background-color: rgba(175, 170, 170, 0.795);
-    padding: 10px;
+    /* padding: 10px; */
     border: 2px solid black;
-    height: 50%;
-    width: 250px;
+    /* height: 50%; */
+    margin-left: 85%;
+    border-right-width: 100%;
+    height: 100%;
+    /* max-width: 40%; */
     position: fixed;
     z-index: 1;
+    right: 0;
     top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top:20px; 
-    margin-left: 1005px;
-    margin-top: 430px;
+    /* overflow-x: hidden;  */
+    float: right;
+    overflow: auto;
+    /* float: initial; */
+    /* padding-top:20px;  */
+    /* margin-left: 1005px;
+    margin-top: 430px; */
 }
 
 
